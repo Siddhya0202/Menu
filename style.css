@@ -1,0 +1,113 @@
+
+body{
+    background: #6d73e6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8f94fb, #4e54c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}    
+.menu-card-container{
+    margin: 20px 15%;
+    width:60%;
+    background: #979007; 
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    background: linear-gradient(to right, #434343, #000000); 
+    padding:5%;
+    border-radius: 40px;
+}
+
+
+h1{
+    background-image: linear-gradient(to right, #d4ee0eed 0%, #fbff00 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    text-align: center;
+    font-size:60px;
+}
+img{
+    width:200px;
+    height:200px;
+    float: right;
+    border-radius:90%;
+}
+h2{
+    background-image: linear-gradient(to right, #d8e129 0%, #fbff00 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+        text-align:center;
+    font-size:40px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+h4{
+    background-image: linear-gradient(to right, #d8e129 0%, #fbff00 100%);
+    color: transparent;
+    
+    -webkit-background-clip: text;
+    text-align:center;
+    font-size:40px;
+    font-family:'Times New Roman', Times, serif;
+}
+ul{
+    font-size: 30px;
+    color:#d5d89a
+}
+a:link{
+    color:#fff;
+    font-size:20px;
+    text-decoration: none;
+}
+a:hover{
+    color:#d9e489;
+}
+a:active{
+    color:rgb(0, 0, 0);
+}
+h3{
+    font-size:30px; 
+    text-align:center;
+    color:#fff;
+    font-family: 'Caveat', cursive;
+}
+.credit a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 800;
+  }
+  
+  .credit {
+      color: #fff;
+    text-align: center;
+    margin-top: 10px;
+    font-family: Verdana,Geneva,Tahoma,sans-serif;
+  }
+
+  @media only screen and (max-width: 860px) {
+    h1
+      {
+         font-size: 38px;
+     }
+     .menu-card-container{
+        margin: 20px 5%;
+        width:80%;
+     }
+   }
+   @media only screen and (max-width: 600px) {
+    h1
+      {
+         font-size: 28px;
+     }
+     .menu-card-container{
+        margin: 20px 1%;
+        width:88%;
+     }
+     ul{
+        font-size: 20px;
+        color:#8f94fb
+    }
+    h2{
+        font-size:18px ;
+    }
+    h3{
+        font-size: 18px;
+   }}
+
